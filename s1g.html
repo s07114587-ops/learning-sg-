@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<title>SG</title>
+	</head>
+	<body style="background: linear-gradient(135deg, #8AE16B, #FDFF8A, #F5A8A3); min-height: 100vh; margin: 0; padding: 20px;">
+		
+		<table border="0" style="width: 80%; margin: 30px auto; border-collapse: collapse; background: #111; color: #fff; font-family: sans-serif; box-shadow: 0px 0px 15px cyan; border-radius: 8px; overflow: hidden;">
+			<tr style="background: linear-gradient(to right, #ff416c, #ff4b2b); color: white; font-weight: bold; text-align: center;">
+				<td style="padding: 15px;">ID</td>
+				<td style="padding: 15px;">Name</td>
+				<td style="padding: 15px;">Status</td>
+			</tr>
+			<tr style="text-align: center; border-bottom: 1px solid #333;">
+				<td style="padding: 12px; color: #50fa7b;">001</td>
+				<td style="padding: 12px;"><a href="https://shubhomoy.dnc.su/" style="color: white; text-decoration: none;">https://shubhomoy.dnc.su/</a></td>
+				<td style="padding: 12px; color: cyan;">Live 🚀</td>
+			</tr>
+			<tr style="text-align: center; border-bottom: 1px solid #333;">
+				<td style="padding: 12px; color: #50fa7b;">002</td>
+				<td style="padding: 12px;"><a href="https://subratadriving.dnc.su/" style="color: white; text-decoration: none;">https://subratadriving.dnc.su/</a></td>
+				<td style="padding: 12px; color: cyan;">Live 🚀</td>
+			</tr>
+			<tr style="text-align: center; border-bottom: 1px solid #333;">
+				<td style="padding: 12px; color: #50fa7b;">003</td>
+				<td style="padding: 12px;"><a href="https://sai.dnc.su/" style="color: white; text-decoration: none;">https://sai.dnc.su/</a></td>
+				<td style="padding: 12px; color: cyan;">Live 🚀</td>
+			</tr>
+		</table>
+		
+		<form method="POST" enctype="multipart/form-data" style="max-width: 600px; margin: 40px auto; background: rgba(0, 0, 0, 0.8); padding: 30px; border-radius: 15px; box-shadow: 0px 0px 20px rgba(0, 242, 254, 0.5); font-family: sans-serif; color: white; border: 1px solid #333;">
+			
+			<h2 style="text-align: center; color: cyan; margin-top: 0;">Join SG Team 🚀</h2>
+			
+			<fieldset style="border: 1px solid cyan; border-radius: 8px; margin-bottom: 20px; padding: 15px;">
+				<legend style="color: cyan; font-weight: bold; padding: 0 10px; font-size: 18px;">Text & Standard Inputs</legend>
+				
+				<p>
+					<label for="text-input">Text Input:</label><br>
+					<input type="text" id="text-input" name="text_data" placeholder="Type standard text here" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+				
+				<p>
+					<label for="password-input">Password Input:</label><br>
+					<input type="password" id="password-input" name="password_data" placeholder="Characters will be hidden" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+				
+				<p>
+					<label for="search-input">Search Input:</label><br>
+					<input type="search" id="search-input" name="search_query" placeholder="Search keywords..." style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+			</fieldset>
+			
+			<fieldset style="border: 1px solid cyan; border-radius: 8px; margin-bottom: 20px; padding: 15px;">
+				<legend style="color: cyan; font-weight: bold; padding: 0 10px; font-size: 18px;">Numeric & Range Inputs</legend>
+				
+				<p>
+					<label for="number-input">Number Input (Min 1, Max 10):</label><br>
+					<input type="number" id="number-input" name="number_data" min="1" max="10" placeholder="5" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+				
+				<p>
+					<label for="range-input">Range / Slider Input:</label><br>
+					<input type="range" id="range-input" name="range_data" min="0" max="100" value="50" style="width: 100%; margin-top: 5px;">
+				</p>
+			</fieldset>
+			
+			<fieldset style="border: 1px solid cyan; border-radius: 8px; margin-bottom: 20px; padding: 15px;">
+				<legend style="color: cyan; font-weight: bold; padding: 0 10px; font-size: 18px;">Specialized Contact Inputs</legend>
+				
+				<p>
+					<label for="email-input">Email Input:</label><br>
+					<input type="email" id="email-input" name="email_data" placeholder="name@example.com" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+				
+				<p>
+					<label for="tel-input">Telephone Input:</label><br>
+					<input type="tel" id="tel-input" name="tel_data" placeholder="123-456-7890 (optional)" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+				
+				<p>
+					<label for="url-input">URL Input:</label><br>
+					<input type="url" id="url-input" name="url_data" placeholder="https://example.com" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+			</fieldset>
+			
+			<fieldset style="border: 1px solid cyan; border-radius: 8px; margin-bottom: 20px; padding: 15px;">
+				<legend style="color: cyan; font-weight: bold; padding: 0 10px; font-size: 18px;"> (optional)</legend>
+				
+				<p>
+					<label for="date-input">Date Input:</label><br>
+					<input type="date" id="date-input" name="date_data" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+				
+				<p>
+					<label for="time-input">Time Input:</label><br>
+					<input type="time" id="time-input" name="time_data" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+				
+				<p>
+					<label for="datetime-local-input">Datetime-Local Input:</label><br>
+					<input type="datetime-local" id="datetime-local-input" name="datetime_local_data" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+				</p>
+			</fieldset>
+			
+			<fieldset style="border: 1px solid cyan; border-radius: 8px; margin-bottom: 20px; padding: 15px;">
+				<legend style="color: cyan; font-weight: bold; padding: 0 10px; font-size: 18px;">Selection & Choice Inputs</legend>
+				
+				<p>
+					<label>Select Your Country (optional):</label><br>
+					<select name="country" style="width: 100%; padding: 12px; margin-top: 5px; background: #222; color: #fff; border: 1px solid #444; border-radius: 6px; box-sizing: border-box; font-size: 16px;">
+						<option value="India">India</option>
+						<option value="Bangladesh">Bangladesh</option>
+						<option value="USA">USA</option>
+						<option value="UK">UK</option>
+					</select>
+				</p>
+				
+				<p>
+					<label>Checkbox Inputs (Select multiple):</label><br>
+					<input type="checkbox" id="check-1" name="hobbies" value="coding" checked>
+					<label for="check-1">Coding</label><br>
+					<input type="checkbox" id="check-2" name="hobbies" value="reading">
+					<label for="check-2">Reading</label>
+				</p>
+				
+				<p>
+					<label>Radio Inputs (Select only one):</label><br>
+					<input type="radio" id="radio-1" name="gender" value="male">
+					<label for="radio-1">Male</label><br>
+					<input type="radio" id="radio-2" name="gender" value="female">
+					<label for="radio-2">Female</label>
+				</p>
+			</fieldset>
+			
+			<fieldset style="border: 1px solid cyan; border-radius: 8px; margin-bottom: 20px; padding: 15px;">
+				<legend style="color: cyan; font-weight: bold; padding: 0 10px; font-size: 18px;">File & Media Inputs</legend>
+				
+				<p>
+					<label for="file-input">uplod your coding file as txt format:</label><br>
+					<input type="file" id="file-input" name="file_upload" style="width: 100%; padding: 10px; margin-top: 5px; color: #fff;">
+				</p>
+				
+				<p>
+					<label for="color-input">Tell your favourite colour:</label><br>
+					<input type="color" id="color-input" name="color_picker" value="#ff0000" style="width: 100px; height: 40px; margin-top: 5px; border: none; background: transparent; cursor: pointer;">
+				</p>
+			</fieldset>
+			
+			<input type="hidden" id="hidden-input" name="hidden_token" value="xyz123abc">
+			
+			<button type="button" onclick="alert('Thanks to make a part of SG team'); window.location.href='https://shubhomoy.dnc.su/';" style="background: linear-gradient(to right, #00f2fe, #4facfe); border: none; padding: 15px 25px; color: white; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; width: 100%; box-shadow: 0 0 15px #00f2fe; text-transform: uppercase; margin-top: 10px;">
+				Submit Form 🚀
+			</button>
+			
+		</form>
+		
+	</body>
+</html>
